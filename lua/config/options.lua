@@ -15,4 +15,5 @@ if vim.g.neovide then
   vim.g.transparency = 0.7
   vim.g.neovide_background_color = "#0f1117" .. alpha()
   vim.g.neovide_cursor_vfx_mode = "ripple"
+  vim.opt.guifont = { "", ":h12" }
 end
